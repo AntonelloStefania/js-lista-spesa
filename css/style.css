@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{font-family: 'Orbitron', sans-serif;}
+
+.big-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18072F;
+    box-shadow: -22px 5px 143px 24px inset #e458b581;
+}
+
+.container{
+    width: 40rem;
+    height: 35rem;
+    text-align: center;
+    background-color: #2F1C74;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    border: 5px solid #7B7BB6;
+    box-shadow: 30px 39px 150px 60px #DDC6C7;
+}
+
+h1{
+    color:#C3C4DC
+}
+
+.lista-goty{
+    margin-top: 3rem;
+    font-weight: bold;
+    list-style-type:disc;
+    color: #C3C4DC;
+    list-style-type: none;
+}
+
+.lista-goty li{
+    margin: 1.2rem 0;
+    font-size: 1.5rem;
+}
